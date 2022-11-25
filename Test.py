@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# Test case for adding two numbers
+# Test case for multiplication two numbers
 import unittest
 
 from Program import multiply
 
-class TestSum(unittest.TestCase):
+class TestMultiply(unittest.TestCase):
     def test1(self):
         data = [40, 80]
         result = multiply(data)
